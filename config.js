@@ -12,7 +12,7 @@ const aURL = [
   [
     "2196F3",
     "CONTEST",
-    "https://www.contestcalendar.com/fivewkcal.html",
+    "https://www.contestcalendar.com/weeklycont.php",
     "1",
   ],
   ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
@@ -23,26 +23,26 @@ const aURL = [
     "1",
     "R",
   ],
-  ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
+  ["2196F3", "CoCoRaHS", "https://maps.cocorahs.org/", "1.2"],
   [
     "2196F3",
-    "RADAR",
-    "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
-    "1",
-    "R"
+    "HOURLY FORECAST",
+    "https://forecast.weather.gov/MapClick.php?lat=34.259&lon=-80.5882&unit=0&lg=english&FcstType=graphical",
+    
+    
   ],
   ["2196F3", "TIME.IS", "https://time.is/", "1", "R"],
   [
     "2196F3",
     "WEATHER",
-    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=44.0157&lon=-79.4591&zoom=5",
+    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=34.0201&lon=-80.8594&zoom=4",
     "1",
     "R",
   ],
   [
     "2196F3",
     "WINDS",
-    "https://earth.nullschool.net/#current/wind/surface/level/orthographic=-78.79,44.09,3000",
+    "https://earth.nullschool.net/#current/wind/surface/level/grid=on/orthographic=-81.67,33.43,1055/loc=-80.591,34.509",
     "1",
     "R",
   ],
@@ -55,7 +55,8 @@ const aURL = [
 // You can't add more items because there are only 12 placeholders on the dashboard
 // but you can replace the titles and the images with anything you want.
 const aIMG = [
-  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
+  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"
+    ],
 
     [
     "SATELLITE SE + CONUS",
@@ -63,8 +64,10 @@ const aIMG = [
     "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/GOES16-CONUS-GEOCOLOR-625x375.gif",
   ],
    [
-    "LOCAL RADAR",
+    "LOCAL RADAR+",
     "https://radar.weather.gov/ridge/standard/KCAE_loop.gif",
+    "https://radar.weather.gov/ridge/standard/KMKX_loop.gif",
+    "https://radar.weather.gov/ridge/standard/PACNORTHWEST_loop.gif",
   ],
     [
     "+",
@@ -80,9 +83,10 @@ const aIMG = [
     "+PIVOTAL FORECAST MAPS+",
     
     "https://x-hv1.pivotalweather.com/maps/mrms/latest/mrms_qpe_024h_p.conus.png",
+    "https://x-hv1.pivotalweather.com/maps/wpc/latest/wpc_excessive_rainfall_day1.conus.png",
     "https://x-hv1.pivotalweather.com/maps/wpc/latest/wpc_excessive_rainfall_day2.conus.png",
     "https://x-hv1.pivotalweather.com/maps/wpc/latest/wpc_excessive_rainfall_day3.conus.png",
-    "https://m2o.pivotalweather.com/maps/models/hrrr/2024063022/000/cape03.conus.png",
+    
   ],
   [
     "LIGHTNING+   HAZARDS-US",
@@ -110,7 +114,9 @@ const aIMG = [
 
     
   [
-     "10M PROPAGATION", "https://www.tvcomm.co.uk/g7izu/Autosave/NA_ES_AutoSave.JPG"
+     "10M PROPAGATION", "https://www.tvcomm.co.uk/g7izu/Autosave/NA_ES_AutoSave.JPG",
+     
+    
   ],
 
   [
